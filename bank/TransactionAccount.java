@@ -3,13 +3,13 @@ package bank;
 public class TransactionAccount extends BankAccount {
     private final double overDraftLimit = 500;
 
-    public TransactionAccount(String accountHolderName, String accountNumber, double initialBalance) {
+    public TransactionAccount(String accountNumber, String accountHolderName, double initialBalance) {
         super(accountNumber, accountHolderName, initialBalance);
     }
 
     @Override
     public void calculateInterest() {
-        System.out.println("There is no interest for this account.");
+        System.out.println("There is no interest for this account. [Transaction account]");
     }
 
     @Override

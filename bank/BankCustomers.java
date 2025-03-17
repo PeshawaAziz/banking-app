@@ -5,6 +5,10 @@ import java.util.ArrayList;
 public class BankCustomers {
     private ArrayList<BankAccount> accountsList;
 
+    public BankCustomers() {
+        accountsList = new ArrayList<>();
+    }
+
     public void addAccount(BankAccount account) {
         accountsList.add(account);
     }

@@ -11,6 +11,6 @@ public class SavingsAccount extends BankAccount {
     public void calculateInterest() {
         double interest = interestRate * balance;
         deposit(interest);
-        System.out.println("Deposited " + interest + "$ (Interest). [SavingsAccount]");
+        System.out.println("Deposited " + interest + "$ (Interest). [Savings account]");
     }
 }
